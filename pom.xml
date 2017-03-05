@@ -16,9 +16,9 @@
     
   <properties>
     <database.driver>com.mysql.jdbc.Driver</database.driver>
-    <database.url>jdbc:mysql://localhost:3306/rupp_test?autoReconnect=true</database.url>
+    <database.url>jdbc:mysql://localhost:3306/customer-management-spring?autoReconnect=true</database.url>
     <database.username>root</database.username>
-    <database.password>rot</database.password>
+    <database.password></database.password>
     
     <spring.version>4.3.5.RELEASE</spring.version>
     
@@ -26,6 +26,7 @@
   
   <build>
     <finalName>customer-rest-api</finalName>
+    
     <resources>
             <!-- base set of resources -->
             <resource>
