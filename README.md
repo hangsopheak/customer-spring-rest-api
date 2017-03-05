@@ -38,15 +38,15 @@ mvn jetty:run
 <b>CRUD REST-APIs:</b>
 
 <pre>
-GET http://localhost:8080/api/categories/v1/all
+GET http://localhost:8080/api/customers/v1/all
 
-GET http://localhost:8080/api/cagetoires/v1/{id}
+GET http://localhost:8080/api/customers/v1/{id}
 
-POST http://localhost:8080/api/cagetoires/v1/{id}
+POST http://localhost:8080/api/customers/v1/{id}
 
-DELETE http://localhost:8080/api/cagetoires/v1/{id}
+DELETE http://localhost:8080/api/customers/v1/{id}
 
-PUT http://localhost:8080/api/cagetoires/v1/{id}
+PUT http://localhost:8080/api/customers/v1/{id}
 </pre>
 
 <b>Client REST-APIs</b>
